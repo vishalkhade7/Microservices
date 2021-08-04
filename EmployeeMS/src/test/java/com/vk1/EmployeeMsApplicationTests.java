@@ -1,4 +1,4 @@
-package com.vk;
+package com.vk1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

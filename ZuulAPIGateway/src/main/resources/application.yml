@@ -1,0 +1,12 @@
+server:
+  port: 2222
+  
+spring:  application:    name: Zuul-API-Gateway
+    
+eureka:  client:    fetch-registry: true
+    register-with-eureka: true
+    service-url.defaulZone: http://localhost:8761/eureka/    
+zuul:
+  prefix: /api  routes.emplyeeMS:
+    path: /zuulAPI/**
+    serviceId: EMPLOYEEMS      
